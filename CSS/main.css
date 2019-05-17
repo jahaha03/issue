@@ -1,0 +1,80 @@
+/* Universal Header */
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+/* CSS for index.html */
+.bpic {
+    height: 800px;
+    background-image: url("../Images/redwp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.special {
+    text-align: center;
+    transform: translateY(250%);
+}
+
+.title {
+    color: white;
+    font-size: 600%;
+}
+
+.description {
+    text-align: center;
+}
+
+/* CSS for AboutUs.html */
+.us-jumbo {
+    height: 250px;
+}
+
+.us-title {
+    text-align: center;
+    transform: translateY(110%);
+}
+
+.aboutus {
+    font-weight: lighter;
+}
+
+/* CSS for Products.html */
+.products-jumbo {
+    height: 250px;
+}
+
+.products-title {
+    text-align: center;
+    transform: translateY(110%);
+}
+
+.bbat-product {
+    font-weight: lighter;
+}
+
+.bbat-img {
+    transform: translateX(17%);
+}
+
+/* CSS for Feedback.html */
+.fb-jumbo {
+    height: 250px;
+}
+
+.fb-title {
+    text-align: center;
+    transform: translateY(110%);
+}
+
+.feedback-form {
+    width: 100%;
+}
+
+/* Universal Footer */
+.footer-content {
+    text-align: center;
+    color: white;
+}
