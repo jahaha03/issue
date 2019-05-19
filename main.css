@@ -56,7 +56,7 @@
 }
 
 .bbat-img {
-    transform: translateX(17%);
+    transform: translateX(20%);
 }
 
 /* CSS for Feedback.html */
@@ -77,4 +77,5 @@
 .footer-content {
     text-align: center;
     color: white;
+    transform: translateY(-135%);
 }
